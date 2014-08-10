@@ -1,13 +1,10 @@
 <?php
 
-use Laracasts\Commander\CommanderTrait;
 use Larabook\Forms\PublishStatusForm;
 use Larabook\Statuses\PublishStatusCommand;
 use Larabook\Statuses\StatusRepository;
 
 class StatusesController extends \BaseController {
-
-    use CommanderTrait;
 
     protected $statusRepository;
 
@@ -44,11 +41,13 @@ class StatusesController extends \BaseController {
      */
     public function store() {
 
-        $this->publishStatusForm->validate(Input::only('body'));
+        $input = Input::get();
+        $input['userId'] = Auth::id();
 
-        $this->execute(
-            new PublishStatusCommand(Input::get('body'), Auth::user()->id)
-        );
+        $this->publishStatusForm->validate($input);
+
+        $this->execute(PublishStatusCommand::class, $input);
+
 
         Flash::message('Your status has been updated!');
 

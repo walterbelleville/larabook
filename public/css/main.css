@@ -1,2 +1,45 @@
 body {
-  padding-top: 70px; }
+  padding-top: 70px;
+  background: #D3DADE; }
+
+.container h1:first-of-type {
+  margin-top: 0; }
+
+.nav-gravatar {
+  float: left;
+  position: relative;
+  top: -6px;
+  left: -8px;
+  border: 1px solid #555; }
+
+.status-post {
+  border: 1px solid #E2E2E2;
+  background: white;
+  margin-bottom: 3em;
+  padding: 0; }
+  .status-post textarea {
+    border: none; }
+    .status-post textarea:focus {
+      -webkit-box-shadow: none;
+              box-shadow: none; }
+  .status-post .status-post-submit {
+    border-top: 1px solid #E2E2E2;
+    padding: 0.5em 1em;
+    margin-bottom: 0;
+    overflow: hidden; }
+  .status-post .btn {
+    float: right; }
+
+.status-media {
+  border: 1px solid #E2E2E2;
+  background: white;
+  padding: 1em;
+  margin-bottom: 2em; }
+
+.users {
+  margin-bottom: 3em; }
+
+.user-block {
+  text-align: center; }
+  .user-block .avatar {
+    margin: auto; }

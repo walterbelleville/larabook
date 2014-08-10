@@ -7,10 +7,11 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 use Larabook\Registration\Events\UserRegistered;
 use Laracasts\Commander\Events\EventGenerator;
 use Eloquent, Hash;
+use Laracasts\Presenter\PresentableTrait;
 
 class User extends Eloquent implements UserInterface, RemindableInterface {
 
-	use UserTrait, RemindableTrait, EventGenerator;
+	use UserTrait, RemindableTrait, EventGenerator, PresentableTrait;
 
     /*
      * Which fields may be mass assigned?
@@ -30,7 +31,16 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 *
 	 * @var array
 	 */
-	protected $hidden = array('password', 'remember_token');
+    protected $hidden = array('password', 'remember_token');
+
+    /**
+     * Path to the presenter for a user
+     *
+     * @var string
+     */
+    protected $presenter = 'Larabook\Users\UserPresenter';
+
+
 
     /**
      * Passwords must always be hashed
@@ -62,6 +72,21 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
         $user->raise(new UserRegistered($user));
 
         return $user;
+    }
+
+
+    /**
+     * Determine if the given user is the same
+     * as the current one.
+     *
+     * @param $user
+     * @return bool
+     */
+    public function is($user) {
+
+        if (is_null($user)) return false;
+
+        return $this->username == $user->username;
     }
 
 }
