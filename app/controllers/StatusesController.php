@@ -1,13 +1,13 @@
 <?php
 
-use Larabook\Core\CommandBus;
+use Laracasts\Commander\CommanderTrait;
 use Larabook\Forms\PublishStatusForm;
 use Larabook\Statuses\PublishStatusCommand;
 use Larabook\Statuses\StatusRepository;
 
-class StatusController extends \BaseController {
+class StatusesController extends \BaseController {
 
-    use CommandBus;
+    use CommanderTrait;
 
     protected $statusRepository;
 
@@ -52,6 +52,6 @@ class StatusController extends \BaseController {
 
         Flash::message('Your status has been updated!');
 
-        return Redirect::refresh();
+        return Redirect::back();
     }
 }
