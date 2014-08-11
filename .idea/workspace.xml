@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01e5751-0e44-4d34-95f6-afc2e6428284" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Larabook/Users/FollowUserCommand.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Larabook/Users/FollowUserCommandHandler.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/partials/follow-form.blade.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/layouts/partials/avatar.blade.php" afterPath="$PROJECT_DIR$/app/views/users/partials/avatar.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php" afterPath="$PROJECT_DIR$/app/Larabook/Statuses/StatusRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/StatusesController.php" afterPath="$PROJECT_DIR$/app/controllers/StatusesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Larabook/Users/User.php" afterPath="$PROJECT_DIR$/app/Larabook/Users/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Larabook/Users/UserRepository.php" afterPath="$PROJECT_DIR$/app/Larabook/Users/UserRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.blade.php" afterPath="$PROJECT_DIR$/app/views/users/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/nav.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/partials/nav.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/show.blade.php" afterPath="$PROJECT_DIR$/app/views/users/show.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/statuses/partials/status.blade.php" afterPath="$PROJECT_DIR$/app/views/statuses/partials/status.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="larabook.iws" />
@@ -41,7 +28,7 @@
       <file leaf-file-name="follow-form.blade.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/partials/follow-form.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="47" selection-start="87" selection-end="87" vertical-scroll-proportion="0.037037037" vertical-offset="0" max-vertical-offset="621">
+            <state line="1" column="47" selection-start="87" selection-end="87" vertical-scroll-proportion="0.10222222" vertical-offset="0" max-vertical-offset="299">
               <folding />
             </state>
           </provider>
@@ -207,7 +194,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="712" />
+    <option name="x" value="686" />
     <option name="y" value="22" />
     <option name="width" value="1548" />
     <option name="height" value="992" />
@@ -441,11 +428,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="712" y="22" width="1548" height="992" extended-state="0" />
+    <frame x="686" y="22" width="1548" height="992" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42105263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26448894" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42044258" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.68177027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -785,7 +772,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/partials/follow-form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="47" selection-start="87" selection-end="87" vertical-scroll-proportion="0.037037037" vertical-offset="0" max-vertical-offset="621">
+        <state line="1" column="47" selection-start="87" selection-end="87" vertical-scroll-proportion="0.10222222" vertical-offset="0" max-vertical-offset="299">
           <folding />
         </state>
       </provider>
