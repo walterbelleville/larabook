@@ -9,5 +9,6 @@
         <p>{{ $status->present()->timeSincePublished() }}</p>
 
         {{ $status->body }}
+
     </div>
 </article>
