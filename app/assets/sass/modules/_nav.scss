@@ -1,31 +1,30 @@
-// Nav
-.navbar-default {
-  background-color: #00BAE9;
-  border-color: #F3F3F3;
 
-  .navbar-brand {
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-  }
+.navbar-default
+{
+    background-color : #00A1CB;
+    border-color     : #f3f3f3;
 
-  .nabar-nav > li > a {
-    color: #fff;
-
-    &:hover {
-      color: #2C6C91;
+    .navbar-brand
+    {
+        color          : #fff;
+        text-transform : uppercase;
+        letter-spacing : 0.1em;
     }
-  }
+    .navbar-nav > li > a
+    {
+        color : #fff;
+
+        &:hover
+        {
+            color : #616161;
+        }
+    }
 }
 
-.navbar-default .navbar-nav > .active > a {
-  background-color: darken(#00BAE9, 10%);
-}
-
-.nav-gravatar {
-  float: left;
-  position: relative;
-  top: -6px;
-  left: -8px;
-  border: 1px solid #555;
+.nav-gravatar{
+    float    : left;
+    position : relative;
+    top      : -6px;
+    left     : -10px;
+    border   : 1px solid rgb(238, 238, 238);
 }
