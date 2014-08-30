@@ -2,9 +2,9 @@
 .status-media
 {
     border        : 1px solid #E3E3E3;
+    border-bottom: none;
     background    : white;
     padding       : 1em;
-    margin-bottom : 2em;
 }
 
 .status-media-heading
@@ -78,4 +78,21 @@
         }
 
     }
+}
+
+.comments__create-form textarea {
+  border: 1px solid #e3e3e3;
+  border-top: none;
+  border-radius: 0;
+}
+
+.comments {
+  margin-bottom: 5em;
+}
+
+.comments__comment {
+  background: darken(white, 3%);
+  margin-top: 0;
+  border: 1px solid darken(white, 15%);
+  border-bottom: 1px solid #e3e3e3;
 }
